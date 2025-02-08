@@ -1,8 +1,8 @@
 <?php
 session_start();
 require_once '../config/db_connect.php';
-require_once '../admin_check.php';
-checkAdmin();
+// require_once '../admin_check.php';
+// checkAdmin();
 
 if (!isset($_GET['id'])) {
     $_SESSION['error_message'] = "No user selected for editing.";

@@ -1,8 +1,8 @@
 <?php
 session_start();
 require_once '../config/db_connect.php';
-require_once '../admin_check.php';
-checkAdmin();
+// require_once '../admin_check.php';
+// checkAdmin();
 
 // Fetch article data
 if (isset($_GET['id'])) {
